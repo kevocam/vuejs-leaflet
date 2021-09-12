@@ -1,6 +1,6 @@
 # spaceLeaflet
 
-## Demo: [https://todoreact-kevo.netlify.app/](https://todoreact-kevo.netlify.app/)
+## Demo: [https://vue-leaflet-kevo.netlify.app/](https://vue-leaflet-kevo.netlify.app/)
 
 ## Build Setup
 
