@@ -23,11 +23,11 @@ $ npm run build
 
     > Cada que se hace click en el boton Guardar se muestra la información de los marcadores guardados en la consola.
 
-    > La opción de eliminar solo se activa cuadno se guardo un maker.
+    > La opción de eliminar solo se activa cuando se guardó un maker.
 
-    > Generé un componente Marker Custom para mostrar el arrar con makers.
+    > Generé un componente Marker Custom para mostrar el array de makers.
 
-    > Use Sass y Vuetify
+    > Use Sass y Vuetify para los estilos.
 
  ### Capturas
  
