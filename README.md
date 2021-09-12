@@ -1,8 +1,8 @@
-# space
+# spaceLeaflet
 
 ## Build Setup
 
-```bash
+
 # install dependencies
 $ npm install
 
@@ -13,57 +13,37 @@ $ npm run dev
 $ npm run build
 $ npm run start
 
-# generate static project
-$ npm run generate
-```
+## About
 
-For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
+- Objetivo: 
+    >Construir una interfaz de mapa para definir puntos de muestreo dentro de un polígono .
 
-## Special Directories
+-Tecnologías:
+    > Proyecto desarrollado con VueJs y LeaftLe (https://vue2-leaflet.netlify.app) con NuxtJs.
 
-You can create the following extra directories, some of which have special behaviors. Only `pages` is required; you can delete them if you don't want to use their functionality.
+- Detalles: 
+    > En base a un geoJson rendediramoz un poligono, dentro podemos hacer click y dejar un marcador haciendo click en Guardar.
 
-### `assets`
+    > Cada que se hace click en el boton Guardar se muestra la información de los marcadores guardados en la consola.
 
-The assets directory contains your uncompiled assets such as Stylus or Sass files, images, or fonts.
+    > La opción de eliminar solo se activa cuadno se guardo un maker.
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/assets).
+    > Generé un componente Marker Custom para mostrar el arrar con makers.
 
-### `components`
+    > Use Sass y Vuetify
 
-The components directory contains your Vue.js components. Components make up the different parts of your page and can be reused and imported into your pages, layouts and even other components.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/components).
-
-### `layouts`
-
-Layouts are a great help when you want to change the look and feel of your Nuxt app, whether you want to include a sidebar or have distinct layouts for mobile and desktop.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/layouts).
+ ### Capturas
+ 
+<img align="center" src="./assets/screen2.png" alt="screen1/"  />
+<br>
+<p>Salida por consola:</p>
+<img align="center" src="./assets/screen1.png" alt="screen1/"  />
 
 
-### `pages`
+<h3 align="left">Connect with me:</h3>
+<p align="left">
+<a href="https://linkedin.com/in/kevocam/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="kevocam/" height="30" width="40" /></a>
+</p>
 
-This directory contains your application views and routes. Nuxt will read all the `*.vue` files inside this directory and setup Vue Router automatically.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/get-started/routing).
-
-### `plugins`
-
-The plugins directory contains JavaScript plugins that you want to run before instantiating the root Vue.js Application. This is the place to add Vue plugins and to inject functions or constants. Every time you need to use `Vue.use()`, you should create a file in `plugins/` and add its path to plugins in `nuxt.config.js`.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/plugins).
-
-### `static`
-
-This directory contains your static files. Each file inside this directory is mapped to `/`.
-
-Example: `/static/robots.txt` is mapped as `/robots.txt`.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/static).
-
-### `store`
-
-This directory contains your Vuex store files. Creating a file in this directory automatically activates Vuex.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/store).
+<h3 align="left">Languages and Tools:</h3>
+<p align="left"> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://vuejs.org/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original-wordmark.svg" alt="vuejs" width="40" height="40"/> </a> <a href="https://vuetifyjs.com/en/" target="_blank"> <img src="https://bestofjs.org/logos/vuetify.svg" alt="vuetify" width="40" height="40"/> </a> </p>
